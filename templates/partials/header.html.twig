@@ -6,10 +6,11 @@
 
     {% if site.title  %}
     <h1 class="blog-title">
-      <a href='{{ base_url_absolute }}'>{{ site.title }}
+      <a href='{{ base_url_absolute }}'>
+      <span>{{ site.title }}</span>
       {% for meta in page.metadata %}
         {% if meta.name=="slug" %}
-          {{ meta.content }}
+          <span>{{ meta.content }}</span>
         {% endif %}
       {% endfor %}
       </a>
