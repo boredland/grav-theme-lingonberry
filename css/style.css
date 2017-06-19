@@ -275,6 +275,9 @@ input#s {
 
 .header .blog-title a:hover { color: #2D3642; }
 
+.header .blog-title a span {
+    display: block;
+}
 
 /* logo noimg */
 
